@@ -2,12 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.1.0](https://github.com/IoannisArmamentos/Duux-Home-Assistant/compare/v1.0.0...v1.1.0) (2026-06-23)
+## [2.17.0](https://github.com/SSmale/Duux-Home-Assistant/compare/v2.16.1...v2.17.0) (2026-06-25)
 
 ### Added
 
-* adds in the custom block for the elevate fan ([7127f4e](https://github.com/IoannisArmamentos/Duux-Home-Assistant/commit/7127f4eb403d5d6d917aee8098606d0b885f60a3))
-* adds the ionzer switch ([e890db2](https://github.com/IoannisArmamentos/Duux-Home-Assistant/commit/e890db2b2bd1f76d97b0c07c00a36162c054b3e1))
+* adds support for Duux North AC ([#116](https://github.com/SSmale/Duux-Home-Assistant/issues/116)) ([94789f0](https://github.com/SSmale/Duux-Home-Assistant/commit/94789f02328a9c04f425c1f9c34fcb979a167023)), closes [#115](https://github.com/SSmale/Duux-Home-Assistant/issues/115)
+
+## [2.17.0-pre-115.2](https://github.com/SSmale/Duux-Home-Assistant/compare/v2.17.0-pre-115.1...v2.17.0-pre-115.2) (2026-06-24)
+
+### Fixed
+
+* prevent UnboundLocalError in async_set_preset_mode ([#110](https://github.com/SSmale/Duux-Home-Assistant/issues/110)) ([#114](https://github.com/SSmale/Duux-Home-Assistant/issues/114)) ([67d451f](https://github.com/SSmale/Duux-Home-Assistant/commit/67d451f7013c78374445c53ec4174e4dcbcd24ef))
+
+## [2.16.1](https://github.com/SSmale/Duux-Home-Assistant/compare/v2.16.0...v2.16.1) (2026-06-24)
+
+### Fixed
+
+* prevent UnboundLocalError in async_set_preset_mode ([#110](https://github.com/SSmale/Duux-Home-Assistant/issues/110)) ([#114](https://github.com/SSmale/Duux-Home-Assistant/issues/114)) ([67d451f](https://github.com/SSmale/Duux-Home-Assistant/commit/67d451f7013c78374445c53ec4174e4dcbcd24ef))
+
+## [2.16.1-pre-110.1](https://github.com/SSmale/Duux-Home-Assistant/compare/v2.16.0...v2.16.1-pre-110.1) (2026-06-24)
+
+### Fixed
+
+* prevent UnboundLocalError in async_set_preset_mode ([#110](https://github.com/SSmale/Duux-Home-Assistant/issues/110)) ([acf6dd8](https://github.com/SSmale/Duux-Home-Assistant/commit/acf6dd874b695cd7c176a02f3d2a75ed81b780d4))
 
 ## [2.16.0](https://github.com/SSmale/Duux-Home-Assistant/compare/v2.15.0...v2.16.0) (2026-06-22)
 
@@ -367,9 +384,6 @@ All notable changes to this project will be documented in this file.
 * [ ] Add sensor entities for power consumption
 * [ ] Local API support (if available)
 * [ ] Energy dashboard integration
-
-
-
 
 
 
